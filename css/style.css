@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Golos Text';
+    src: url('../fonts/Golostextregular.woff2') format('woff2'), 
+         url('../fonts/Golostextregular.woff') format('woff'), 
+         url('../fonts/Golostextregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Golos Text';
+    src: url('../fonts/Golostextmedium.woff2') format('woff2'), 
+         url('../fonts/Golostextmedium.woff') format('woff'), 
+         url('../fonts/Golostextmedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Golos Text';
+    src: url('../fonts/Golostextdemibold.woff2') format('woff2'), 
+         url('../fonts/Golostextdemibold.woff') format('woff'), 
+         url('../fonts/Golostextdemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Golos Text';
+    src: url('../fonts/Golostextbold.woff2') format('woff2'), 
+         url('../fonts/Golostextbold.woff') format('woff'), 
+         url('../fonts/Golostextbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Golos Text';
+    src: url('../fonts/Golostextblack.woff2') format('woff2'), 
+         url('../fonts/Golostextblack.woff') format('woff'), 
+         url('../fonts/Golostextblack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+*,*::before,*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul, ol, li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+    max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+html, body{
+    line-height: 1;
+    overflow-x: hidden;
+    background-color: #F5F5F5;
+}
+body {
+    font-family: 'Golos Text', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+}
+section{
+    position: relative;
+    margin-bottom: 120px;
+}
+.wrapper {
+    position: relative;
+    width: 90%;
+    max-width: 1500px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
