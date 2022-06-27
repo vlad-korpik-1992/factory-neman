@@ -195,6 +195,7 @@ section{
     position: relative;
     padding: 30px 0 60px 20px;
     font-size: 24px;
+    line-height: 120%;
     color: #fff;
     background-color: #ba9267;
     margin-bottom: 40px;
@@ -281,7 +282,7 @@ main{
 }
 .about__title{
     font-size: 30px;
-    line-height: 36px;
+    line-height: 120%;
     font-weight: 500;
     padding-bottom: 60px;
 }
@@ -317,10 +318,10 @@ main{
 .addresses__link__title{
     position: relative;
     max-width: 100%;
-    font-size: 28px;
-    line-height: 100%;
+    font-size: 24px;
+    line-height: 120%;
     color: #fff;
-    padding: 450px 0 0 15px;
+    padding: 450px 0 0 28px;
 }
 .addresses__box{
     display: flex;
@@ -438,7 +439,7 @@ main{
     display: block;
     padding: 66px 0px;
     font-size: 24px;
-    line-height: 100%;
+    line-height: 120%;
     font-weight: 500;
     color: #fff;
 }
@@ -481,6 +482,7 @@ main{
 }
 .blog__cover__title{
     font-size: 20px;
+    line-height: 120%;
     font-weight: 500;
     padding-bottom: 70px;
 }
@@ -581,6 +583,9 @@ main{
     max-width: 16.666667%;
     padding-left: 20px;
     padding-right: 20px;
+}
+.footer__bottom__img{
+    width: 100%;
 }
 .footer__copy{
     display: flex;
