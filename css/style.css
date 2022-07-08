@@ -348,6 +348,9 @@ main{
 .box--center{
     align-items: center;
 }
+.box--pb{
+    padding-bottom: 50px;
+}
 .box__top{
     padding-top: 30px;
 }
@@ -1425,6 +1428,9 @@ input[type="range"]::-moz-range-thumb{
     right: 110px;
     bottom: -52px;
 }
+.cart__check--bottom{
+    bottom: -45px;
+}
 .vacancies__cover{
     position: relative;
     display: flex;
@@ -1566,4 +1572,121 @@ input[type="range"]::-moz-range-thumb{
     color: #000;
     text-decoration: underline;
     padding-left: 20px;
+}
+.sharer__link{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px 108px 20px;
+    border: 2px solid #000;
+    box-shadow: 0 5px 30px 5px rgb(212 212 212 / 80%);
+    border-radius: 5px;
+    color: #000;
+}
+.sharer__title{
+    font-size: 30px;
+    line-height: 100%;
+    padding-bottom: 18px;
+}
+.sharer__content{
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.7;
+}
+.sharer__icon{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.sharer__link--pb{
+    margin-bottom: 50px;
+}
+.sharer__link--pb:last-child{
+    margin-bottom: 0;
+}
+.management{
+    margin-bottom: 70px;
+}
+.management__img{
+    width: 100%;
+}
+.management__title{
+    padding-top: 15px;
+    padding-bottom: 7px;
+    font-weight: 500;
+    color: #000;
+}
+.management__subtitle{
+    font-size: 14px;
+    line-height: 18px;
+    color: #b8b8b8;
+}
+.contacts__items{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 78px;
+}
+.contacts__items--pb{
+    padding-bottom: 85px;
+}
+.contacts__title{
+    font-size: 18px;
+    line-height: 95%;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.contacts__tel{
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+}
+.contacts__mail{
+    display: flex;
+    align-items: center;
+    padding-top: 35px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+    text-decoration: underline;
+}
+.contacts__mail__circle{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fe8835;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacts__mail__icon{
+    width: 16px;
+    height: 16px;
+    fill: #fe8835;
+}
+.contacts__mail--pt{
+    padding-top: 0;
+}
+.contacts__border{
+    position: relative;
+    margin-top: -10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 46px 0 44px 44px;
+    box-shadow: 0 5px 30px 5px rgb(212 212 212 / 80%);
+    display: flex;
+    align-items: center;
+}
+.contacts__border__icon{
+    flex: 0 0 48px;
+    width: 48px;
+    height: 45px;
+}
+.contacts__border__content{
+    display: block;
+    margin-left: 43px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+    max-width: 600px;
 }
