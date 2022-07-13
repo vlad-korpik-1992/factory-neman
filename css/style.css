@@ -1935,7 +1935,7 @@ input[type="range"]::-moz-range-thumb{
     left: 30px;
     right: 30px;
     height: 20px;
-    background-color: #fe8835;
+    background-color: #e0cdbe;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -1981,6 +1981,9 @@ input[type="range"]::-moz-range-thumb{
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 5px;
+}
+.single__img img{
+    width: 100%;
 }
 .single__category{
     max-width: 185px;
@@ -2032,4 +2035,8 @@ input[type="range"]::-moz-range-thumb{
 }
 .single__items__content p:last-child{
     padding-bottom: 0;
+}
+.single__items__content img{
+    width: 100%;
+    padding-bottom: 40px;
 }
